@@ -1,7 +1,7 @@
 import { type FormEvent, useCallback, useEffect, useState } from "react";
-import { PrimaryButton,TextInput } from "@coral-xyz/react-common";
+import { PrimaryButton, TextInput } from "@coral-xyz/react-common";
 import { useCustomTheme } from "@coral-xyz/themes";
-import { AlternateEmail } from "@mui/icons-material";
+import { AlternateEmail, LastPageTwoTone } from "@mui/icons-material";
 import { Box, InputAdornment } from "@mui/material";
 
 import { Header, SubtextParagraph } from "../../common";
@@ -11,15 +11,17 @@ export const UsernameForm = ({
   onNext,
 }: {
   inviteCode: string;
-  onNext: (username: string) => void;
+  onNext: (username: string, firstname: string, lastname: string) => void;
 }) => {
   const [username, setUsername] = useState("");
+  const [firstname, setFirstname] = useState("");
+  const [lastname, setLastname] = useState("");
   const [error, setError] = useState("");
   const theme = useCustomTheme();
 
   useEffect(() => {
     setError("");
-  }, [username]);
+  }, [username, firstname, lastname]);
 
   const handleSubmit = useCallback(
     async (e: FormEvent) => {
@@ -34,12 +36,12 @@ export const UsernameForm = ({
         const json = await res.json();
         if (!res.ok) throw new Error(json.message || "There was an error");
 
-        onNext(username);
+        onNext(username, firstname, lastname);
       } catch (err: any) {
         setError(err.message);
       }
     },
-    [username]
+    [username, firstname, lastname]
   );
 
   return (
@@ -53,9 +55,9 @@ export const UsernameForm = ({
         justifyContent: "space-between",
       }}
     >
-      <Box style={{ margin: "24px" }}>
+      <Box style={{ margin: "24px", marginTop: "-4px" }}>
         <Header text="Claim your username" />
-        <SubtextParagraph style={{ margin: "16px 0" }}>
+        <SubtextParagraph style={{ margin: "16px 0", marginBottom: "-5px" }}>
           Others can see and find you by this username, and it will be
           associated with your primary wallet address.
           <br />
@@ -66,11 +68,13 @@ export const UsernameForm = ({
           Have fun!
         </SubtextParagraph>
       </Box>
+
       <Box
         style={{
           marginLeft: "16px",
           marginRight: "16px",
-          marginBottom: "16px",
+          marginBottom: "0px",
+          marginTop: "0px",
         }}
       >
         <Box style={{ marginBottom: "16px" }}>
@@ -104,8 +108,73 @@ export const UsernameForm = ({
               </InputAdornment>
             }
           />
+          <TextInput
+            inputProps={{
+              name: "Firstname",
+              autoComplete: "off",
+              spellCheck: "false",
+              autoFocus: true,
+            }}
+            placeholder="Firstname"
+            type="text"
+            value={firstname}
+            setValue={(e) => {
+              setFirstname(
+                e.target.value.toLowerCase().replace(/[^a-z0-9_]/g, "")
+              );
+            }}
+            error={error ? true : false}
+            errorMessage={error}
+            startAdornment={
+              <InputAdornment position="start">
+                <AlternateEmail
+                  style={{
+                    color: theme.custom.colors.secondary,
+                    fontSize: 18,
+                    marginRight: -2,
+                    userSelect: "none",
+                  }}
+                />
+              </InputAdornment>
+            }
+          />
+          <TextInput
+            inputProps={{
+              name: "lastname",
+              autoComplete: "off",
+              spellCheck: "false",
+              autoFocus: true,
+            }}
+            placeholder="Lastname"
+            type="text"
+            value={lastname}
+            setValue={(e) => {
+              setLastname(
+                e.target.value.toLowerCase().replace(/[^a-z0-9_]/g, "")
+              );
+            }}
+            error={error ? true : false}
+            errorMessage={error}
+            startAdornment={
+              <InputAdornment position="start">
+                <AlternateEmail
+                  style={{
+                    color: theme.custom.colors.secondary,
+                    fontSize: 18,
+                    marginRight: -2,
+                    userSelect: "none",
+                  }}
+                />
+              </InputAdornment>
+            }
+          />
         </Box>
-        <PrimaryButton label="Continue" type="submit" />
+
+        <PrimaryButton
+          style={{ margin: "10px", marginLeft: "-2px" }}
+          label="Continue"
+          type="submit"
+        />
       </Box>
     </form>
   );
