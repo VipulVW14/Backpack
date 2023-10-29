@@ -65,7 +65,9 @@ insert_permissions:
     permission:
       check: {}
       columns:
+        - firstname
         - invitation_id
+        - lastname
         - referrer_id
         - username
         - waitlist_id
@@ -113,3 +115,7 @@ update_permissions:
         - updated_at
       filter: {}
       check: null
+delete_permissions:
+  - role: auth_worker
+    permission:
+      filter: {}

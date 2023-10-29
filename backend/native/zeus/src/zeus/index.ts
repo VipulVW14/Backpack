@@ -51,7 +51,7 @@ const handleFetchResponse = (response: Response): Promise<GraphQLResponse> => {
         .catch(reject);
     });
   }
-  return response.json();
+  return response.json() as Promise<GraphQLResponse>;
 };
 
 export const apiFetch =
@@ -362,12 +362,17 @@ export const traverseResponse = ({
     ) {
       return o;
     }
-    return Object.fromEntries(
-      Object.entries(o).map(([k, v]) => [
-        k,
-        ibb(k, v, [...p, purifyGraphQLKey(k)]),
-      ])
+    const entries = Object.entries(o).map(
+      ([k, v]) => [k, ibb(k, v, [...p, purifyGraphQLKey(k)])] as const
     );
+    const objectFromEntries = entries.reduce<Record<string, unknown>>(
+      (a, [k, v]) => {
+        a[k] = v;
+        return a;
+      },
+      {}
+    );
+    return objectFromEntries;
   };
   return ibb;
 };
@@ -759,8 +764,8 @@ export const resolverFor = <
     source: any
   ) => Z extends keyof ModelTypes[T]
     ? ModelTypes[T][Z] | Promise<ModelTypes[T][Z]> | X
-    : any
-) => fn as (args?: any, source?: any) => any;
+    : never
+) => fn as (args?: any, source?: any) => ReturnType<typeof fn>;
 
 export type UnwrapPromise<T> = T extends Promise<infer R> ? R : T;
 export type ZeusState<T extends (...args: any[]) => Promise<any>> = NonNullable<
@@ -816,9 +821,13 @@ type IsInterfaced<
                 : DST[P],
               SCLR
             >
-          : Record<string, unknown>
+          : IsArray<
+              R,
+              "__typename" extends keyof DST ? { __typename: true } : never,
+              SCLR
+            >
         : never;
-    }[keyof DST] & {
+    }[keyof SRC] & {
       [P in keyof Omit<
         Pick<
           SRC,
@@ -4317,6 +4326,7 @@ export type ValueTypes = {
   ["auth_users_constraint"]: auth_users_constraint;
   /** input type for inserting data into table "auth.users" */
   ["auth_users_insert_input"]: {
+    firstname?: string | undefined | null | Variable<any, string>;
     invitation?:
       | ValueTypes["auth_invitations_obj_rel_insert_input"]
       | undefined
@@ -4327,6 +4337,7 @@ export type ValueTypes = {
       | undefined
       | null
       | Variable<any, string>;
+    lastname?: string | undefined | null | Variable<any, string>;
     public_keys?:
       | ValueTypes["auth_public_keys_arr_rel_insert_input"]
       | undefined
@@ -5270,6 +5281,17 @@ export type ValueTypes = {
         public_key: string | Variable<any, string>;
       },
       ValueTypes["auth_user_nfts"]
+    ];
+    delete_auth_users?: [
+      {
+        /** filter the rows which have to be deleted */
+        where: ValueTypes["auth_users_bool_exp"] | Variable<any, string>;
+      },
+      ValueTypes["auth_users_mutation_response"]
+    ];
+    delete_auth_users_by_pk?: [
+      { id: ValueTypes["uuid"] | Variable<any, string> },
+      ValueTypes["auth_users"]
     ];
     delete_auth_xnft_preferences?: [
       {
@@ -11097,11 +11119,13 @@ export type ResolverInputTypes = {
   ["auth_users_constraint"]: auth_users_constraint;
   /** input type for inserting data into table "auth.users" */
   ["auth_users_insert_input"]: {
+    firstname?: string | undefined | null;
     invitation?:
       | ResolverInputTypes["auth_invitations_obj_rel_insert_input"]
       | undefined
       | null;
     invitation_id?: ResolverInputTypes["uuid"] | undefined | null;
+    lastname?: string | undefined | null;
     public_keys?:
       | ResolverInputTypes["auth_public_keys_arr_rel_insert_input"]
       | undefined
@@ -11779,6 +11803,17 @@ export type ResolverInputTypes = {
     delete_auth_user_nfts_by_pk?: [
       { nft_id: string; public_key: string },
       ResolverInputTypes["auth_user_nfts"]
+    ];
+    delete_auth_users?: [
+      {
+        /** filter the rows which have to be deleted */
+        where: ResolverInputTypes["auth_users_bool_exp"];
+      },
+      ResolverInputTypes["auth_users_mutation_response"]
+    ];
+    delete_auth_users_by_pk?: [
+      { id: ResolverInputTypes["uuid"] },
+      ResolverInputTypes["auth_users"]
     ];
     delete_auth_xnft_preferences?: [
       {
@@ -16048,10 +16083,12 @@ export type ModelTypes = {
   ["auth_users_constraint"]: auth_users_constraint;
   /** input type for inserting data into table "auth.users" */
   ["auth_users_insert_input"]: {
+    firstname?: string | undefined;
     invitation?:
       | ModelTypes["auth_invitations_obj_rel_insert_input"]
       | undefined;
     invitation_id?: ModelTypes["uuid"] | undefined;
+    lastname?: string | undefined;
     public_keys?:
       | ModelTypes["auth_public_keys_arr_rel_insert_input"]
       | undefined;
@@ -16582,6 +16619,10 @@ export type ModelTypes = {
       | undefined;
     /** delete single row from the table: "auth.user_nfts" */
     delete_auth_user_nfts_by_pk?: ModelTypes["auth_user_nfts"] | undefined;
+    /** delete data from the table: "auth.users" */
+    delete_auth_users?: ModelTypes["auth_users_mutation_response"] | undefined;
+    /** delete single row from the table: "auth.users" */
+    delete_auth_users_by_pk?: ModelTypes["auth_users"] | undefined;
     /** delete data from the table: "auth.xnft_preferences" */
     delete_auth_xnft_preferences?:
       | ModelTypes["auth_xnft_preferences_mutation_response"]
@@ -18949,10 +18990,12 @@ export type GraphQLTypes = {
   ["auth_users_constraint"]: auth_users_constraint;
   /** input type for inserting data into table "auth.users" */
   ["auth_users_insert_input"]: {
+    firstname?: string | undefined;
     invitation?:
       | GraphQLTypes["auth_invitations_obj_rel_insert_input"]
       | undefined;
     invitation_id?: GraphQLTypes["uuid"] | undefined;
+    lastname?: string | undefined;
     public_keys?:
       | GraphQLTypes["auth_public_keys_arr_rel_insert_input"]
       | undefined;
@@ -19523,6 +19566,12 @@ export type GraphQLTypes = {
       | undefined;
     /** delete single row from the table: "auth.user_nfts" */
     delete_auth_user_nfts_by_pk?: GraphQLTypes["auth_user_nfts"] | undefined;
+    /** delete data from the table: "auth.users" */
+    delete_auth_users?:
+      | GraphQLTypes["auth_users_mutation_response"]
+      | undefined;
+    /** delete single row from the table: "auth.users" */
+    delete_auth_users_by_pk?: GraphQLTypes["auth_users"] | undefined;
     /** delete data from the table: "auth.xnft_preferences" */
     delete_auth_xnft_preferences?:
       | GraphQLTypes["auth_xnft_preferences_mutation_response"]

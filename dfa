@@ -1,0 +1,2640 @@
+[33mcommit eff90a5b7b886fcae3d29f46cbb2f99b5d85ff91[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: VipulVW14 <vipulwasnik0@gmail.com>
+Date:   Fri Oct 27 13:01:39 2023 +0530
+
+    Frontend fix
+
+[33mcommit 31b677d34c4a6b151f488ef3194d47ff58cfc37e[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Mon Mar 13 17:28:05 2023 -0600
+
+    Adds contacts logic to nfts (#3252)
+    
+    * Adds contacts logic to nfts
+    
+    * update
+
+[33mcommit bdc58bd742fcf50d75f5b1d0cb550ebf54c17f71[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Mon Mar 13 19:24:54 2023 -0400
+
+    Collectibles & xnft fixes (#3341)
+    
+    * collectible polishes
+    
+    * fix window.xnft.publicKeys
+
+[33mcommit be9240ebeb2b41d2a554e2cbde72bf0604dedfae[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Mon Mar 13 17:54:50 2023 -0500
+
+    fix onboarding flow (#3342)
+    
+    * cleanup
+    
+    * clenaup
+    
+    * updates
+    
+    * fix onboarding
+    
+    * cleanup
+    
+    * fix error
+
+[33mcommit c4fff217ee8b26e7bf8358748f82d29f577708b1[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Mon Mar 13 17:27:42 2023 -0500
+
+    fix cursor pointer
+
+[33mcommit 3851f6550c163b61bd9bfbcf0a1af90a6f499705[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Mon Mar 13 17:33:32 2023 -0400
+
+    fix logout drawer not closing properly (#3340)
+
+[33mcommit 090ad5186664cd69df283befefc8a2f8d5f7925b[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Tue Mar 14 09:50:46 2023 +1300
+
+    fix setting active blockchain for new user keyrings (#3339)
+
+[33mcommit f5a4d09fe92bc2957f3d158e39bbcb8e79841bb7[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Mon Mar 13 16:05:11 2023 -0400
+
+    fix view balances button on send confirmation card (#3335)
+
+[33mcommit e4e41b837f545f0550a804aa6702b16f4bdc01d8[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Mon Mar 13 11:30:06 2023 -0700
+
+    npm packages cleanup (#3332)
+
+[33mcommit d03c31f6b218af93ba4d95cc8286d393364dc032[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Mon Mar 13 14:28:49 2023 -0400
+
+    remove waiting room (#3334)
+
+[33mcommit 352f6109a806a95cfe29620de218bc736907af2e[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Mon Mar 13 10:27:49 2023 -0500
+
+    cleanup and prepare (#3328)
+
+[33mcommit 0d5a5c029c87dc85dc68620b12a50f9ad9bf2a72[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Mar 13 22:44:55 2023 +1300
+
+    enable menu item for setting primary for private key imports (#3326)
+
+[33mcommit 77e83a27862c04a10a54ca746af7058f8ddb6cb1[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Mon Mar 13 00:20:14 2023 -0500
+
+    relabel import as advanced
+
+[33mcommit bafbc4fa453eca24f2fb0a1908055afb9d840e04[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Sun Mar 12 22:08:39 2023 -0500
+
+    prepare mobile app for release candidate (#3260)
+    
+    * updates
+    
+    * add sqllite shims
+    
+    * updates
+    
+    * updates
+    
+    * updates
+    
+    * updates
+    
+    * re-add icon
+    
+    * merge master
+    
+    * undo master
+
+[33mcommit b6206833e5acefc88339ce2dbb7fdb4a44a4ac30[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Mar 13 13:54:18 2023 +1300
+
+    private key only accounts (#3307)
+    
+    * stash
+    
+    * stash
+    
+    * stash
+    
+    * stash
+    
+    * stash
+    
+    * stash
+    
+    * stash
+    
+    * handle creation of primary
+    
+    * stash
+    
+    * remove console logs
+
+[33mcommit 39be3dff5fe2aabcce50932efa4d8275d55a4c0f[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Mar 12 18:16:06 2023 -0600
+
+    Fixed notification call (#3319)
+
+[33mcommit 51fa73491c18d2f3c99cbbbe5436b56717a63267[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sun Mar 12 18:23:50 2023 -0500
+
+    Revert "adds sentry to backpack-api and app-mobile (#3311)"
+    
+    This reverts commit 20478aa93e5f06e0d33e80a81bd3cedd69a760d3.
+
+[33mcommit 20478aa93e5f06e0d33e80a81bd3cedd69a760d3[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Sun Mar 12 18:03:23 2023 -0500
+
+    adds sentry to backpack-api and app-mobile (#3311)
+    
+    * sentry
+    
+    * init monitoring
+    
+    * adds SENTRY_DSN to env
+    
+    * sample 0.5 of the requests
+    
+    * updates
+    
+    * updates config
+    
+    * clean up yarn.lock
+
+[33mcommit 6ddf0ed518cde4540e8ea7236f75b2bfebdbaec7[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Sun Mar 12 12:35:20 2023 -0700
+
+    add public_keys_user_id_idx (#3316)
+
+[33mcommit 9d7b2c26c9025686e9bbca9328e140d57cc13ff4[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sun Mar 12 13:38:13 2023 -0500
+
+    fix unlock race condition for filters
+
+[33mcommit 73f0795aeb62ba588b17d7460ef433e729d21882[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sun Mar 12 13:32:06 2023 -0500
+
+    use recoil for filter display
+
+[33mcommit df51836c3a6c84fcd0a0b2ea6ded19f0c55ffb47[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Mar 12 12:25:53 2023 -0600
+
+    Adds sentry to env variables (#3312)
+    
+    * Added sentry
+    
+    * Updated newrelic
+
+[33mcommit fc3e59ed5c8f643f3e2c2e368378c7e8f67e1a1c[m
+Author: Mohd Afzal Khan <79896602+AFZL210@users.noreply.github.com>
+Date:   Sun Mar 12 20:49:35 2023 +0530
+
+    Fix: clicking reply should auto focus the messaging input field #2105 (#3309)
+
+[33mcommit 115cd7ddd6eb705c11d365de2926c03ae3009bfb[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Mar 12 09:03:33 2023 -0600
+
+    revert rate limitter (#3310)
+
+[33mcommit 34ce97852818a643660c5939c918ada735be1f37[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sat Mar 11 19:36:42 2023 -0600
+
+    filters on hover cell highlighting
+
+[33mcommit 3134b961fbe6ff7514798fc8ad752e5568866944[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sat Mar 11 19:02:28 2023 -0600
+
+    rename xnft to applications in filter
+
+[33mcommit c49b68472a01e05ab8ca0fe693c1fe8806119116[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sat Mar 11 18:41:55 2023 -0600
+
+    add xnft filter
+
+[33mcommit 72c45752f0434271d5b650eb56a9b0419ac0a4bf[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sat Mar 11 17:41:59 2023 -0600
+
+    filter button
+
+[33mcommit 61f741a61cfdbc6c5c80168ec1837a3b49503b8a[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Mar 11 16:11:07 2023 -0700
+
+    Adds newrelic to notification worker (#3306)
+    
+    * newrelic on notifications worker
+    
+    * Updated tag
+
+[33mcommit 418cf34fcc4fcab5b3a1f34cf057abc31ea60e5c[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Sat Mar 11 17:35:46 2023 -0500
+
+    Update auth_public_keys.yaml (#3305)
+
+[33mcommit 9df42e884f4156ec16512dc0fe4772c74eb836ee[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Mar 11 15:33:53 2023 -0700
+
+    Added newrelic (#3304)
+
+[33mcommit a6d6f5264b2f96654c0869b804677885b096d95c[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sat Mar 11 16:20:07 2023 -0600
+
+    close filters on same shortcut
+
+[33mcommit 14850f9a270d1e545823878920367ff66aa7d7b0[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sat Mar 11 16:13:16 2023 -0600
+
+    fix filter screen not showing on unlock
+
+[33mcommit 7476ef41589d820584757546b71fb0e04f6c9fa4[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sat Mar 11 16:10:06 2023 -0600
+
+    filtering friends goes to messages
+
+[33mcommit f5bbc918f335c305cef9af0c4a2768263f689082[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Mar 11 15:08:37 2023 -0700
+
+    Fix stuff (#3303)
+
+[33mcommit 30d8e8a986f20ae33f555ea8602b9fe1a249b3c4[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Mar 11 14:51:25 2023 -0700
+
+    workflows (#3302)
+
+[33mcommit c42f9e122fa1e95bcf107a0dd7a55871849635bb[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Mar 11 14:46:45 2023 -0700
+
+    Fix workflows (#3301)
+
+[33mcommit 7b585980fcfdb44b8358a754a042666123338691[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Mar 11 14:42:49 2023 -0700
+
+    Fix workflow (#3300)
+
+[33mcommit 39de1c1c6702026ac63d98379c98cc3fee5bed90[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Mar 11 14:39:27 2023 -0700
+
+    Optimised query (#3299)
+
+[33mcommit e298cfb5896c4a521818d94d1f0decd78abc24b4[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Mar 11 14:25:47 2023 -0700
+
+    Adds rate limiting (#3297)
+    
+    * Added rate limiting
+    
+    * fixes
+    
+    * Fixes
+    
+    * revert
+
+[33mcommit b2f62d1591748b9f2f3fac46d25adf5b2cc54465[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Sat Mar 11 15:59:37 2023 -0500
+
+    Update auth_public_keys.yaml (#3295)
+
+[33mcommit bba64cdd84864cb1bda31ee6169b8acde8c31143[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sat Mar 11 14:22:22 2023 -0600
+
+    add filter scrollbar
+
+[33mcommit 3b932e895854f254fc8b93e010b729b5e4983239[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Mar 11 13:18:37 2023 -0700
+
+    Updated search (#3293)
+
+[33mcommit 5726ef2d68585099fe724575f0121311ee01a28c[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sat Mar 11 13:37:13 2023 -0600
+
+    add blur for filter
+
+[33mcommit c572602ba9ca690f035695871b9d5a9e6b29018a[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Mar 11 12:17:18 2023 -0700
+
+    Created index (#3294)
+
+[33mcommit 581636d9d3eb2243fd754a9498e751227a89ab30[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sat Mar 11 11:10:20 2023 -0600
+
+    fix crash
+
+[33mcommit b8662cf26d35eacce17dc8901e2d0879e1a6dc38[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sat Mar 11 10:50:36 2023 -0600
+
+    more styling for filters
+
+[33mcommit eea2c18171146bb835f3e704242278788890cb1e[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sat Mar 11 10:14:53 2023 -0600
+
+    some filter styling
+
+[33mcommit 66574c2bf1f43317d8e2ddfb26cefad99a81141f[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Mar 10 19:18:12 2023 -0700
+
+    Add spotlight search (#3269)
+    
+    * Added spotlight
+    
+    * fixed soptlight
+
+[33mcommit ad62d85b03a79451209a4dc9aa51a2250f87c07c[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Fri Mar 10 19:09:36 2023 -0500
+
+    fix incorrect decimals for some tokens (#3289)
+
+[33mcommit 9810c50ac12f60bf122399719ebabf72530f5546[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Fri Mar 10 14:51:32 2023 -0800
+
+    include fee if creating a token account during swap (#3244)
+
+[33mcommit 23e7223b51d01e1f74c185442936b546325bc044[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Fri Mar 10 17:45:49 2023 -0500
+
+    add advanced view option for multiple tx approvals (#3285)
+
+[33mcommit a11ba6da63bf1fb32d4fcc15190ddb49b5d1ad0c[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Fri Mar 10 16:44:22 2023 -0500
+
+    multiple transaction approval aggregation (#3283)
+
+[33mcommit 9e0c1754ab00035e406f71a952440ef07d52ca78[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Fri Mar 10 13:43:29 2023 -0800
+
+    reimplement #3249 (#3280)
+
+[33mcommit bf838dcd5ddaa7ebeeda05e84bb41caefe93191a[m
+Author: Jayam Patel <93824505+jayam04@users.noreply.github.com>
+Date:   Sat Mar 11 01:45:10 2023 +0530
+
+    add warning about new version of yarn ignoring requirement of yarn v1 in readme (#3278)
+
+[33mcommit 7c015e4ba0aa6f19751d53880fa2ee3fce260ff8[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Fri Mar 10 11:29:08 2023 -0800
+
+    Revert "fix popout size in windows (#3249)" (#3277)
+
+[33mcommit 2bddc21b5dc56a207c683cd8483e9744313ddb1f[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Fri Mar 10 10:34:38 2023 -0800
+
+    remove unused css classes (#3273)
+
+[33mcommit e105fa4921cd39f88048787e6bdb6a5a431b015f[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Fri Mar 10 11:36:50 2023 -0500
+
+    fix null bytes in solana nfts being displayed (#3274)
+
+[33mcommit 00109555bb304bfa175bffe186aa307222287d2a[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Fri Mar 10 08:31:30 2023 -0800
+
+    remove cloudfront redirect for images (#3265)
+
+[33mcommit b888e2ecd95f2519145ae61a215e22acc820cc8d[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Fri Mar 10 00:56:31 2023 -0500
+
+    add ascii logo and warning to console on load (#3272)
+
+[33mcommit bb7b6aff61a9361e105acb5c096b4768b0015721[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Fri Mar 10 16:53:12 2023 +1300
+
+    handle public key creation on accounts with a notification (#3270)
+
+[33mcommit a8c35555d8fe3c22f5225a028ba8c4d8d5a513c8[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Fri Mar 10 16:50:54 2023 +1300
+
+    fix params to import wallet (#3271)
+
+[33mcommit 1262caa59a22f7773acebb24caaab0f9abbba992[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Fri Mar 10 16:36:50 2023 +1300
+
+    allow mnemonic creation for accounts onboarded with ledger (#3224)
+    
+    * wip
+    
+    * force close parent and spacing tweak
+
+[33mcommit 823a0d385479b8190f3f1270538b15f89585e19b[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Thu Mar 9 20:45:41 2023 -0600
+
+    reset nav stacks on account switch
+
+[33mcommit edf150967b4d4b6ce118134f8da454fa6c7ed420[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Fri Mar 10 15:16:36 2023 +1300
+
+    fix deriving on bad paths (#3257)
+    
+    * fix deriving on bad paths
+    
+    * add more tests
+    
+    * allow recovery of bad paths
+    
+    * move blockchain into wallet descriptor type
+    
+    * revert changes to onboarding provider:w
+    
+    * remove blockchain param from use signed wallet
+    
+    * stash
+
+[33mcommit d3e8457f8dbb9680f92de3fac5907bb3eef10ee4[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Thu Mar 9 16:34:07 2023 -0700
+
+    Updated feature gates (#3266)
+
+[33mcommit 4995001f4a107c022289992219e6439fbcbe0c3c[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Thu Mar 9 16:27:42 2023 -0700
+
+    Barter polishes (#3258)
+    
+    * Fixes
+    
+    * stuff
+    
+    * FIxed ui
+    
+    * Fixed poke
+    
+    * Fixed poke
+
+[33mcommit bd67f2a663b9180f97f7f69790a427237874d367[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Thu Mar 9 16:06:30 2023 -0600
+
+    re-adds react-dom (#3263)
+
+[33mcommit 6a545d1a77bb28ac3995e122064feb25bbe779e4[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Thu Mar 9 14:38:29 2023 -0700
+
+    FIx primary key bug (#3259)
+
+[33mcommit c087cb0fbaae2722f61cd46a1325f3b3252a1929[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Thu Mar 9 12:36:08 2023 -0700
+
+    Fixed typo (#3254)
+
+[33mcommit 97e89fb4776cd53bde0fcd5130eaa665b9e3c5e2[m
+Author: Ruchita <126904204+rt-web3@users.noreply.github.com>
+Date:   Fri Mar 10 00:36:13 2023 +0530
+
+    fix: show info on deleted message (#3154)
+    
+    * fix: show info on deleted message
+    
+    * fix: use icon color
+    
+    * fix: imports
+
+[33mcommit d4d9cf5db979dcc24bd5262cd0babf5c63d8af10[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Thu Mar 9 12:13:06 2023 -0600
+
+    tamagui across extension and mobile (#3235)
+    
+    * wip
+    
+    * wip
+    
+    * adds gitignore
+    
+    * cleanup
+    
+    * cleanup
+    
+    * cleanup
+    
+    * fixes
+    
+    * wip
+    
+    * cleanup
+    
+    * fix
+    
+    * removes tsbuildinfo
+    
+    * ignore tsbuildinfo
+    
+    * cleanup
+    
+    * try out box
+    
+    * consolidate theme
+    
+    * View->Box
+    
+    * get it working frrr
+    
+    * fix theme
+    
+    * removes react-native-core
+    
+    * adds comment around tamaguiloaderconfiguration
+    
+    * moves alias over to this webpack config
+    
+    * removes circle
+    
+    * move theme up top to share between everything
+    
+    * adds it back into webpack.dev.config.js
+    
+    * updates
+
+[33mcommit e0c66c0050001cec1d86c2f5924c9d04238ac39e[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Thu Mar 9 09:06:15 2023 -0800
+
+    fix popout size in windows (#3249)
+
+[33mcommit 5debbe252a5dc371ab4270706dc45b85e32eff4e[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Thu Mar 9 11:37:13 2023 -0500
+
+    fix replying to deleted messages (#3250)
+
+[33mcommit d790b8361a67d876cf00ff3310b7a9c51cc0a3a6[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Thu Mar 9 11:20:58 2023 -0500
+
+    add seed phrase recovery option (#3248)
+
+[33mcommit dcf709a41783c28b40b79cb4b54fb23c743a6db1[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Wed Mar 8 22:07:03 2023 -0500
+
+    fix devnet sol tx fee response parsing (#3245)
+
+[33mcommit 61fa1c9b474aa8ffd683b5881f7117ad2cdbfedc[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Thu Mar 9 13:39:02 2023 +1300
+
+    fix public key conflict endpoint (#3243)
+    
+    * Revert "restrict api query user by public key to primary only (#3218)"
+    
+    This reverts commit 3dd96e7de8530d6762454472af8e6039cc66cec6.
+    
+    * remove user_id from return
+
+[33mcommit b9d18e4698e7c61811ba90843f79dca75747cf2f[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Wed Mar 8 18:49:19 2023 -0500
+
+    xnft gateway fix to resolve relative files (#3241)
+
+[33mcommit 6de308ff7d803e3edcc51f1af6745e4bde19c8eb[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Wed Mar 8 15:45:30 2023 -0800
+
+    close any existing backpack windows when opening a new one (#3214)
+
+[33mcommit 24fe5d594f5b3a1b928136dab42c768d893601da[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Wed Mar 8 15:23:47 2023 -0800
+
+    fix auth worker error responses (#3242)
+
+[33mcommit b9788a01416b5af8ed154492a9ccc1011db2afc1[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Mar 8 13:06:07 2023 -0700
+
+    Fixed workflow (#3239)
+
+[33mcommit e27e78b841bf3e1bbada143a3713ee6571610164[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Mar 8 13:00:36 2023 -0700
+
+    Fixed workflow (#3238)
+
+[33mcommit 2f7fa4c85f2a1d59454bd8f3b02a23f9a93453d3[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Mar 8 12:53:31 2023 -0700
+
+    Fix workflow (#3237)
+
+[33mcommit dbe35e5000023124aa1082595aee83dc7b1ca942[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Wed Mar 8 13:29:01 2023 -0600
+
+    update workflow for version number
+
+[33mcommit 8e865d5bdb01fa38fa301bf71ce06ae75f9f01ae[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Wed Mar 8 13:28:04 2023 -0600
+
+    v0.5.2
+
+[33mcommit dcef0693a2b375f9cbbeb6ddeebdc77b2b059aac[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Mar 8 12:26:30 2023 -0700
+
+    Feature gating nft stickers, designs for nft stickers (#3227)
+    
+    * enabled
+    
+    * enabled
+    
+    * Finished nft stickers
+    
+    * Fix
+
+[33mcommit 0837d4eb34c3cfc01961c95a71cf352ba83a1be8[m
+Author: Kritik Jiyaviya <82360525+Kritik-J@users.noreply.github.com>
+Date:   Thu Mar 9 00:06:12 2023 +0530
+
+    Fixed wallet token table height (#3234)
+
+[33mcommit 6d759f9e3e4998b71cbc6a2b5d1092a861ae9648[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Wed Mar 8 09:18:16 2023 -0800
+
+    yarn (#3233)
+
+[33mcommit e7fdc2d5e7bbd6d2f4ee09dd03dd09c82b912603[m
+Author: Kritik Jiyaviya <82360525+Kritik-J@users.noreply.github.com>
+Date:   Wed Mar 8 21:11:23 2023 +0530
+
+    Replaced deleted with removed (#3230)
+
+[33mcommit 678109184ae34d2d23a91767e1fb027865651e68[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Tue Mar 7 20:28:09 2023 -0800
+
+    package maintenance (#3228)
+
+[33mcommit 7ff68c499607fee0b1907e929edd605f7bfd5f2c[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Tue Mar 7 20:51:24 2023 -0500
+
+    adjust notifications loader (#3226)
+
+[33mcommit 6334773f65fa1f1c6ff300a68176a26602684fff[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Tue Mar 7 20:04:29 2023 -0500
+
+    add primary wallets to user profile (#3223)
+
+[33mcommit 0983b33de0a65230a168fcf046b1e5f6ab0719dd[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Mar 7 17:03:07 2023 -0700
+
+    Fix workdir (#3222)
+
+[33mcommit 29af1cbbe4aa1dfca2fcee3a6b8bf753461d5fbe[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Mar 7 16:40:57 2023 -0700
+
+    Make notifications dynamic (#3208)
+    
+    * Move to backend-common
+    
+    * Fixed thing
+    
+    * Makes notifications realtime
+    
+    * FIx build
+    
+    * Fixed stuff
+    
+    * revert
+    
+    * Revert
+    
+    * Added *
+
+[33mcommit 33b2e98eb6b23b2d34e46199d67914d2b5869dd1[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Tue Mar 7 15:36:39 2023 -0800
+
+    fix ui issue when sending to .sol domains (#3221)
+
+[33mcommit ea3008929465eb73424152c1514b2509e5a8cf6c[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Mar 7 16:12:22 2023 -0700
+
+    Fix workflow (#3220)
+
+[33mcommit 3dd96e7de8530d6762454472af8e6039cc66cec6[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Wed Mar 8 11:04:42 2023 +1300
+
+    restrict api query user by public key to primary only (#3218)
+
+[33mcommit 888db64f0f20f35c1865bde4a79df316817c0c04[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Tue Mar 7 13:55:35 2023 -0800
+
+    fix dates in eth recent activity + show times (#3216)
+
+[33mcommit 1dec2f45f8eefed4f02193e083d77978993a8f84[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Tue Mar 7 16:41:50 2023 -0500
+
+    fix message bubble icon on profile (#3217)
+
+[33mcommit ea14d69d4abe8b3380bfe7985513d09bda54f189[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Tue Mar 7 15:01:13 2023 -0500
+
+    adjust sizing for unread vs read message bubble icon (#3213)
+
+[33mcommit 6c59f0325ebbf2421f48ab1a5954a2ddd4466b4f[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Tue Mar 7 13:51:30 2023 -0500
+
+    fix size of wallet select input in send (#3212)
+
+[33mcommit 1abc48dafcb319f51212c7f441af224cef5868dc[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Tue Mar 7 13:28:53 2023 -0500
+
+    adjust calculation and rendering of usd and percentage of change (#3210)
+
+[33mcommit 20793924d9cef53383b787640a7fc3291f05cfb2[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Mar 7 11:10:05 2023 -0700
+
+    fix:tagged username in chat showed name + user id after sending message (#3209)
+    
+    * fix:tagged username in chat showed name + user id after sending message(with new branch)
+    
+    * Removed file
+    
+    * Updates stuff
+    
+    ---------
+    
+    Co-authored-by: Guruvignesh M <vigneshguru274@gmail.com>
+    Co-authored-by: Guruvignesh <79417096+staticGuru@users.noreply.github.com>
+
+[33mcommit abf16762786106815f60a3372d8312c7ad628a52[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Tue Mar 7 12:12:39 2023 -0500
+
+    convert custom message bubble to mui icon and make minor nft page polishs (#3207)
+
+[33mcommit 9365f113533cd2ab83f073f9c7accd3f74206b5b[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Tue Mar 7 10:53:24 2023 -0600
+
+    remove old assets
+
+[33mcommit 5282213ed3f2d0b91e5eb6ea9ba40c136cfe3e5d[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Mar 7 09:27:08 2023 -0700
+
+    Fix workflows (#3204)
+    
+    * Updated dockerfiles
+    
+    * Fix workflow
+
+[33mcommit 44119fe82506c60003c59f193c5d35717690bc89[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Mar 7 09:09:31 2023 -0700
+
+    Updated stuff (#3203)
+
+[33mcommit 17dc433ee2a49d8e98632b6f243beaf770a50055[m
+Author: Mohd Afzal Khan <79896602+AFZL210@users.noreply.github.com>
+Date:   Tue Mar 7 21:33:50 2023 +0530
+
+    Fix : checkbox not visible in darkmode (#3179)
+
+[33mcommit a8079c1330def3d3ff4b1618284574fc7cd58c44[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Tue Mar 7 07:55:21 2023 -0800
+
+    show usernames in send confirmation drawer (#3196)
+
+[33mcommit 0f2a520188ffc580009aef4fbdf312412cd72af7[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Mon Mar 6 18:55:32 2023 -0500
+
+    fix: settings close button not working after rpc change (#3199)
+
+[33mcommit 96c59998acf457ec8dbf7b5f2ffd1fe147f99ef7[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Mon Mar 6 17:51:26 2023 -0600
+
+    react native core wip (#3180)
+    
+    * init
+    
+    * init
+    
+    * updates
+    
+    * cleanup
+    
+    * adjustments
+    
+    * adds bundlewatch
+    
+    * cleanup
+    
+    * adds components and hooks
+    
+    * adds web/native hooks
+    
+    * updates to dist
+    
+    * add the expect-error and move on
+
+[33mcommit 1b88c9b80b967c5975aea75e0387ceb225f274fa[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Mon Mar 6 17:37:53 2023 -0600
+
+    onboarding recover flow stuff (#3147)
+    
+    * recover account fixes
+    
+    * adds eslint
+
+[33mcommit 0b63646bc2c51d197d2c6a0bb9768b0209df4191[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Mon Mar 6 14:04:25 2023 -0800
+
+    yarn (#3195)
+
+[33mcommit 9962bd49b7b27077cbf60e8dff43e7206e86f18c[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Mon Mar 6 15:46:56 2023 -0500
+
+    Update Banner (#3191)
+
+[33mcommit 87a840d55ab9a1a2072adef54dcbdcd6fd4fd6a7[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Mon Mar 6 12:01:24 2023 -0800
+
+    make import wallet selector scrollable (#3192)
+
+[33mcommit cde228fb56b975b059ff28b2ee345f66c78d2fb4[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Mon Mar 6 12:33:12 2023 -0700
+
+    Notifications worker to aws (#3190)
+    
+    * Move notification worker to ws
+    
+    * added notification worker
+    
+    * Added dotenv
+    
+    * fix
+
+[33mcommit ccee6192fbad34783093626e4b392c57733cf4ff[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Mon Mar 6 12:04:54 2023 -0700
+
+    Made reqeust faster (#3189)
+
+[33mcommit 7e4ed7b76f995a1a90d6d8fb7cf44ec50dd021cd[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Mon Mar 6 12:59:32 2023 -0500
+
+    Collectibles update (#3182)
+    
+    * Design update for collectibles tab
+    
+    - chat icon
+    - xnft entry
+    - collection view
+    
+    * Chat handling.
+    
+    * Update Collection.tsx
+    
+    * Update hover
+    
+    * fix zIndex of Banner when no nfts
+
+[33mcommit 4f184bdc638034866fff4268a5f31c998b335e2f[m
+Author: Kritik Jiyaviya <82360525+Kritik-J@users.noreply.github.com>
+Date:   Mon Mar 6 23:22:23 2023 +0530
+
+    Added staff badge to tag usernames popover (#3186)
+
+[33mcommit 1c657e671c549cf559851d4acd837602776dd408[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Mon Mar 6 10:26:37 2023 -0700
+
+    Only deploy notifications worker on merge to prod (#3185)
+
+[33mcommit 8d32db2103e99a6e3a0bc241ae4e096089fa3bac[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Mon Mar 6 10:22:35 2023 -0700
+
+    Fixes metadata call (#3184)
+
+[33mcommit fe722deeae43fbb2c63864d39bd158bb9121630f[m
+Author: Yash <126689039+yash-w3@users.noreply.github.com>
+Date:   Mon Mar 6 22:03:32 2023 +0530
+
+    fix: reuse the chat message id (#3175)
+
+[33mcommit 8ac076736892da3f097f76a37c34637ff7300cb4[m
+Author: Kritik Jiyaviya <82360525+Kritik-J@users.noreply.github.com>
+Date:   Mon Mar 6 22:00:11 2023 +0530
+
+    Fixed message input text overflow (#3164)
+
+[33mcommit 2f90c8213e7f486a142990e243005e60f1d43d0c[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Mar 5 01:23:52 2023 +0530
+
+    Adds env to notification (#3173)
+    
+    * added .env
+    
+    * Updated config
+
+[33mcommit ef154230f3d1b8738e09afe003b8595d35135136[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Mar 5 01:13:22 2023 +0530
+
+    Revert "Fix routes (#3170)" (#3171)
+    
+    * Revert "Fix routes (#3170)"
+    
+    This reverts commit ca3c37ae2044f95e6d38aeb88001035afca074dc.
+    
+    * xnft-api-server to aws
+
+[33mcommit ca3c37ae2044f95e6d38aeb88001035afca074dc[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Mar 5 00:56:04 2023 +0530
+
+    Fix routes (#3170)
+    
+    * Fix
+    
+    * Fix
+
+[33mcommit af498e850783a5a439c7b41dc12839cd670e8249[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Mar 4 23:42:48 2023 +0530
+
+    Message polishes (#3167)
+    
+    * moved out
+    
+    * Closes #2884
+    
+    * Updated stuff
+    
+    * Removed log
+    
+    * fix lint
+
+[33mcommit c94b1ba58d062bef0318ab7f0c9aa92ba5e58496[m
+Author: Kritik Jiyaviya <82360525+Kritik-J@users.noreply.github.com>
+Date:   Sat Mar 4 23:39:25 2023 +0530
+
+    Fixed ctrl+g popout mode keyboard shortcut on windows (#3101)
+
+[33mcommit 0118c714f85e4f891a4d3b275ab0c376b8e89f46[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Mar 4 11:57:00 2023 +0530
+
+    Moves offline image storage to indexedDB (#3166)
+    
+    * checkpoint
+    
+    * Updated stuff
+    
+    * removed comment
+
+[33mcommit 6b04f4cc339c8c8d1d979fdf8c7f5b3eb475ebd9[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Sat Mar 4 00:20:04 2023 -0500
+
+    custom sol amount reverse for scientific notation (#3165)
+
+[33mcommit 51485dbbaa1a2dec1d58349f6646aad60473e25c[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Fri Mar 3 18:43:09 2023 -0500
+
+    add max height and scroll overflow to tx data (#3163)
+
+[33mcommit a5e73b129151d526c48933b8a80ce1a7006639ee[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Sat Mar 4 08:20:47 2023 +1300
+
+    only recovery with primary only (#3156)
+
+[33mcommit 90cb107573d57568b882ca9331c041d289cc46e9[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Mar 3 23:50:09 2023 +0530
+
+    Moved Searchbox to react-common (#3144)
+    
+    * Moved Searchbox to react-common
+    
+    * fixed import
+
+[33mcommit 1f21f1ca7cf96b3806a18544c1279be7c501da3d[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Mar 3 23:30:07 2023 +0530
+
+    Added route (#3146)
+
+[33mcommit cb172b989482aff55fffe258d8a6e05c758368e3[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Fri Mar 3 12:52:37 2023 -0500
+
+    remove space between swap amount and sign to prevent wrapping (#3145)
+
+[33mcommit 24fa295a28f959fccab553b0e1905c6701a7f6c8[m
+Author: Sali <54984459+metasal1@users.noreply.github.com>
+Date:   Sat Mar 4 03:56:05 2023 +1100
+
+    fixed typo from UpdatePulicKey to UpdatePublicKey (#3121)
+    
+    Co-authored-by: Salim Karim <metasal@gmx.com>
+
+[33mcommit d4203f2769e269db28f111c7d8d183cc40931f7b[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Fri Mar 3 10:55:44 2023 -0600
+
+    various mobile onboarding fixes (#3128)
+    
+    * adjustments
+    
+    * fix mnemonic input
+    
+    * fix scrolling on secret recovery phrase
+    
+    * cleanup and fix
+    
+    * fix
+
+[33mcommit 663689d7c666b221edccabb89a6ae4572a9ad86f[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Mar 3 22:08:09 2023 +0530
+
+    Revert "On click profile pic or name from send SOL screen navigate to user profile (#3140)" (#3143)
+    
+    This reverts commit c2a5cabe2777d981ff5027f3387c0bdc8c98e27e.
+
+[33mcommit c2a5cabe2777d981ff5027f3387c0bdc8c98e27e[m
+Author: Kritik Jiyaviya <82360525+Kritik-J@users.noreply.github.com>
+Date:   Fri Mar 3 22:05:24 2023 +0530
+
+    On click profile pic or name from send SOL screen navigate to user profile (#3140)
+
+[33mcommit fe2910f39f0cd17fd2b976721374c56f891826a2[m
+Author: Mohd Afzal Khan <79896602+AFZL210@users.noreply.github.com>
+Date:   Fri Mar 3 22:03:51 2023 +0530
+
+    fix #2551 : send button not functional (#3141)
+
+[33mcommit bfa3574e6afd33a69905d4515c66a98715886548[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Fri Mar 3 11:31:02 2023 -0500
+
+    translate messages up when plugin menu is open (#3142)
+
+[33mcommit 5e9fab7bba75f4c4badcbd5cce01e16f7d4192aa[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Mar 3 12:26:29 2023 +0530
+
+    hid stickers (#3135)
+
+[33mcommit 459340f1b51daa10a306d083f77c5b2e04576c30[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Fri Mar 3 16:23:15 2023 +1300
+
+    disable recover username button if no username (#3133)
+
+[33mcommit 160b2b3c7086fe729f818cd0453583687c18b435[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Thu Mar 2 19:01:14 2023 -0800
+
+    yarn (#3132)
+
+[33mcommit e6330b91c683a1e85c20596b6799ab5d068738d4[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Mar 3 07:53:53 2023 +0530
+
+    Fixed double notifications (#3131)
+    
+    * Fixed double notification
+    
+    * added fix
+
+[33mcommit ff7faba8231bd7ba220341a88b21caee6c1b4098[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Thu Mar 2 18:21:10 2023 -0800
+
+    add dropzone remote feature gate (#3130)
+
+[33mcommit b5d043f339143d3503d0799ae68599b122b6c14d[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Mar 3 06:00:49 2023 +0530
+
+    Fixes design of verified icons backpack (#3129)
+    
+    * fox build
+    
+    * centered
+
+[33mcommit ec8400ba8763211f894927cbf0bf93be05698914[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Mar 3 05:16:43 2023 +0530
+
+    Delete chats with a new queue (#3122)
+    
+    * Delete chats with a new queue
+    
+    * fixed stuff
+
+[33mcommit f04acecab74a9f00d9a9fd16f3f507a014959928[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Thu Mar 2 16:39:42 2023 -0600
+
+    removes app-extension from recoil (#3125)
+    
+    * removes app-extension from recoil
+    
+    * adds eslint rule
+    
+    * re-export useBreakpoints from recoil and pass it through
+    
+    * fixes
+    
+    * removes old breakpoints file
+
+[33mcommit 4aeb01497720589ee05e6df0fe593ff3344ffb6c[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Thu Mar 2 17:30:38 2023 -0500
+
+    Fix Simulator xNFT transaction popover (#3126)
+
+[33mcommit 0feb405aef312df8b2e81ac27793a4bf36217524[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Thu Mar 2 15:26:49 2023 -0500
+
+    update token input field to allow . -> 0. convertion (#3117)
+
+[33mcommit 8051eb806aec0a72fd8d66164e4683770c0bdd39[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Mar 3 01:28:18 2023 +0530
+
+    stuff (#3114)
+
+[33mcommit c600467c8acfafaf472fb24e2571f5f39d2241e6[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Thu Mar 2 13:42:22 2023 -0600
+
+    adds crypto shim for ios/android (#3113)
+    
+    * adds crypto shim for ios/android
+    
+    * removes react-native-get-random-values
+
+[33mcommit 556d82a2263ef49fe3df807c1583912b1cead7c0[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Thu Mar 2 11:38:01 2023 -0800
+
+    update swap ui to handle fees when they're enabled (#3088)
+
+[33mcommit fc89c2f0d1ec977bf6161b9b45644f0d3e1e960d[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Thu Mar 2 11:24:58 2023 -0800
+
+    sort swap output tokens by their popularity on jupiter (#3112)
+
+[33mcommit 015489a4945ca2f6d28fbe4db04998a89c2c7bb6[m
+Author: Yash <126689039+yash-w3@users.noreply.github.com>
+Date:   Fri Mar 3 00:46:52 2023 +0530
+
+    fix(chat): scroll to bottom when sending message (#3100)
+
+[33mcommit 51156c1e8a4a0882857fd690011f81ca6763b086[m
+Author: Yash <126689039+yash-w3@users.noreply.github.com>
+Date:   Fri Mar 3 00:45:30 2023 +0530
+
+    fix(chat): dont show popover when no mentions present (#3098)
+
+[33mcommit 9038666e75397f09d0f31dbaa46015a875769dca[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Thu Mar 2 11:41:44 2023 -0600
+
+    Change zIndexes for madlist banner + add check for AuthenticatedUser in isLive check (#3110)
+
+[33mcommit 9d1a060c5d11298d79fa62af0ce26035e32a796d[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Thu Mar 2 11:10:59 2023 -0600
+
+    nav title not clickable (#3108)
+
+[33mcommit 66e85eded536553010aca0762039fe88fa5a6587[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Thu Mar 2 11:07:33 2023 -0600
+
+    fix messages chat logo button clickable (#3107)
+
+[33mcommit fa723432c7d9874fc9e87e0e60eeaa091b4a5c47[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Thu Mar 2 11:30:56 2023 -0500
+
+    dedup team user id list (#3105)
+
+[33mcommit ab7cbe48e1b5f19e7e203554ba54460ab58cd210[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Thu Mar 2 21:59:04 2023 +0530
+
+    Added more backpack team folks (#3104)
+
+[33mcommit 5bd64f00b53056619dc529f55603a57066a4e362[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Thu Mar 2 11:14:55 2023 -0500
+
+    fix the icon button status on user profile and update team list (#3103)
+
+[33mcommit 6291324f7d9e15bef4e2035dbf76bf2311021638[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Thu Mar 2 22:54:07 2023 +1300
+
+    add sort on balances to import wallets (#3096)
+
+[33mcommit a8cfb06e3175f55d42798be40eb9c2c032aa0114[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Thu Mar 2 09:11:14 2023 +0530
+
+    Fix build (#3093)
+
+[33mcommit ef123d6f778db574713640804145e0b5aa847944[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Thu Mar 2 07:57:25 2023 +0530
+
+    Some more stuff (#3091)
+
+[33mcommit ac12f42bf7207d999f114f7d0779d32125bebb28[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Wed Mar 1 21:25:24 2023 -0500
+
+    fix illegal hook call (#3090)
+
+[33mcommit 65f569d1572733fef28eae5e22c00ef6065087d7[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Wed Mar 1 19:52:11 2023 -0500
+
+    fix chat drawer image skeletons (#3087)
+
+[33mcommit 2bb1cad09c7d67e3da005aafae548091ec4302cc[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Wed Mar 1 19:19:04 2023 -0500
+
+    strip null bytes from nft account data name (#3086)
+
+[33mcommit 35266b9ee70a358ed0375f06baa3bbeeb80101ea[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Thu Mar 2 05:45:30 2023 +0530
+
+    some fixes, delete messages (#3081)
+    
+    * some fixes
+    
+    * Added new column
+    
+    * Updated schema
+    
+    * tsignores
+    
+    * Updated stuff
+    
+    * fixes
+    
+    * more stuff
+    
+    * team limited
+    
+    * Stuff
+
+[33mcommit e7b01672bf508390a557db4293bc41bb312890f8[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Wed Mar 1 17:25:19 2023 -0600
+
+    remove unused vars
+
+[33mcommit 9628cad54bc7dd628a31532f1127c322fc35c5bb[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Wed Mar 1 16:43:34 2023 -0600
+
+    update url (#3084)
+
+[33mcommit 807d4b786d8a5769041929bcfffac335e7f9a979[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Wed Mar 1 15:10:24 2023 -0600
+
+    remove import
+
+[33mcommit 48fc4dbcf646a195c2c342d93627b0b74a9c3697[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Wed Mar 1 15:06:10 2023 -0600
+
+    whitelist protocol url
+
+[33mcommit 85103946094c3656b2b1da1f5af6ceaf2dedcd5d[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Wed Mar 1 14:21:04 2023 -0600
+
+    expo upgrades (#3072)
+    
+    * expo upgrades
+    
+    * CustomButton
+    
+    * fix for latest version
+
+[33mcommit 4072c39d9725ac9b59f7ca990e22f265192b5a64[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Thu Mar 2 01:28:38 2023 +0530
+
+    Adds tooltips (#3076)
+    
+    * Added tooltips
+    
+    * Updated tooltips
+    
+    * Added tooltips
+    
+    * Add verified badge
+
+[33mcommit 475ff780ef103bc476cce02693179047ad092f9f[m
+Author: Yash <126689039+yash-w3@users.noreply.github.com>
+Date:   Thu Mar 2 00:39:03 2023 +0530
+
+    autofocus message input (#3066)
+
+[33mcommit e04e7b0368d284fd4257b25ee09c893c13c6a2b9[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Thu Mar 2 00:38:38 2023 +0530
+
+    Adds poke to barter (#3069)
+    
+    * Adds poke to barter
+    
+    * Adds chat sdk
+
+[33mcommit 41dfe7ad922dfc6716147b417f3a3c3452ce7cc7[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Mar 1 23:29:02 2023 +0530
+
+    Fixes nft breaking issuye (#3073)
+
+[33mcommit 7782a8d84771c0423c93808895d1b848af5c0749[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Wed Mar 1 11:44:29 2023 -0600
+
+    Update xnft-cli to support new manifest.splash format (#2936)
+
+[33mcommit 9646723efc48bedcc7fc4169803146608d2d724c[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Wed Mar 1 11:26:43 2023 -0600
+
+    upgrades turbo (#3071)
+
+[33mcommit 0efdc704aa6f27050d79af7d34823948287718c0[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Wed Mar 1 11:14:08 2023 -0600
+
+    reverts hot module replacement of chrome extension bc it breaks mobile app (#3070)
+    
+    * fix
+    
+    * fix lint
+    
+    * reverts various master changes
+    
+    * fix
+
+[33mcommit 16493de96abc3ccd3778e052f47d0b1bda8f8e3d[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Wed Mar 1 09:31:28 2023 -0600
+
+    eslint (#3067)
+
+[33mcommit 853fe8859a5b3dbfacd66147b9b432230651c640[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Mar 1 09:51:27 2023 +0530
+
+    lint (#3065)
+
+[33mcommit ea0d5ced35e840be3de42bfffc0cff2ca0a46cf0[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Mar 1 09:49:40 2023 +0530
+
+    Fixed 3039 (#3064)
+
+[33mcommit 3d41923ab6635750f3cf241c135dfca4a7ff86c3[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Tue Feb 28 18:14:30 2023 -0600
+
+    Remove twitter user restrictions (#3061)
+    
+    * Remove twitter_user restrictions
+    
+    * remove index
+    
+    * add if exists check
+
+[33mcommit 19796936d83e9d21a60fc239ff2b7adf8d5b12c4[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Tue Feb 28 17:46:04 2023 -0600
+
+    Revert "Remove twitter_user restrictions (#3056)" (#3059)
+    
+    This reverts commit e468a65da9edc8ef35609568d670dba4a2b7d6a6.
+
+[33mcommit 1de7bd924b0fd3b0e92737a2b2136b37029b601e[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Mar 1 05:08:32 2023 +0530
+
+    FIxed mutation (#3058)
+
+[33mcommit 9453b291942c57f05f5c367785c72574ef733720[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Mar 1 05:02:38 2023 +0530
+
+    Invite fix (#3057)
+
+[33mcommit e468a65da9edc8ef35609568d670dba4a2b7d6a6[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Tue Feb 28 17:20:39 2023 -0600
+
+    Remove twitter_user restrictions (#3056)
+    
+    * Remove twitter_user restrictions
+    
+    * remove index
+
+[33mcommit c6892c77d23c8590233c2d9956862ffe684bc95f[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Tue Feb 28 13:15:52 2023 -0800
+
+    Revert "async jupiter follow-up (#3040)" (#3053)
+    
+    This reverts commit 9fa0c8d594d61e3fa696114ec4b788401add0ddb.
+
+[33mcommit 95dc210d7be4d4eb2be2e361a12d96b69612e224[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Tue Feb 28 12:18:46 2023 -0800
+
+    fix invites gql mutation (#3049)
+
+[33mcommit db998b13aa56f20a622df568484523c9e72ac880[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Tue Feb 28 12:04:38 2023 -0800
+
+    update permissions for invites worker (#3047)
+
+[33mcommit b3497cd818d9e734df4af5724eed864fa2a29541[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Mar 1 00:57:20 2023 +0530
+
+    Allow all uuids as invite codes (#3044)
+    
+    * Auth codes mutation
+    
+    * Updated invitaions permissions
+
+[33mcommit f11082326440a8f187a026cf4d6156cdb2d471fe[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Tue Feb 28 10:35:57 2023 -0800
+
+    add Backpack title to popup and tabs (#3042)
+
+[33mcommit 9fa0c8d594d61e3fa696114ec4b788401add0ddb[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Tue Feb 28 10:24:40 2023 -0800
+
+    async jupiter follow-up (#3040)
+
+[33mcommit 98d158fa2e0a44b9259a32ad71b7127450333f26[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Feb 28 22:04:10 2023 +0530
+
+    Added new WL colleciton (#3037)
+
+[33mcommit bef53cbeddd134cfbbc1055ca567c9f601f6318e[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Mon Feb 27 21:31:26 2023 -0800
+
+    don't block UI when loading jupiter routes (#3036)
+
+[33mcommit 9e986ce05a6795e019f4be8293d99d0df7ce772d[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Mon Feb 27 16:25:04 2023 -0600
+
+    adds background to app-extension script (#3031)
+
+[33mcommit 3f13dcc1a9f7486d401eeb5d8a40e1bca8f6d3ce[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Feb 28 03:24:15 2023 +0530
+
+    Fix url (#3029)
+
+[33mcommit ab5f1303604175ffab5ea44fc8ff6360c052d7af[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Feb 28 01:52:17 2023 +0530
+
+    Added tables for barter poking (#3028)
+    
+    * Added tables
+    
+    * comit
+    
+    * comit
+
+[33mcommit d3076103aec1d92ce719fc8ed09f16ee3ee4952a[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Mon Feb 27 23:29:38 2023 +0530
+
+    Adds nft stickers (#3017)
+    
+    * checkpoint
+    
+    * Added stickers
+    
+    * Added file
+    
+    * lint
+    
+    * Fix lint
+    
+    * More sticker fun, auth
+
+[33mcommit d8ce27bcd859b1754f7cb68fc6e0080c315fa832[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Mon Feb 27 22:39:04 2023 +0530
+
+    Fixed typo (#3024)
+
+[33mcommit 1ef0930ba4cbebf782e4776b2428525f59e7dc6a[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Mon Feb 27 22:33:06 2023 +0530
+
+    Updated configs (#3023)
+
+[33mcommit 5d1d2c8876d998e64cb9105c44f73c863b6425c3[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Mon Feb 27 11:02:51 2023 -0500
+
+    add skeleton style to new wallet connect drawer (#3018)
+
+[33mcommit 18ec8e87e1f58102cc2671028ea0fe7443b0aa88[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Mon Feb 27 02:08:19 2023 +0530
+
+    Updates db for stickers (#3014)
+    
+    * Added db changes for stickers
+    
+    * Updated zeus
+
+[33mcommit a82d1b068eda19e4533ca4a642eab8d8722bfd41[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Sun Feb 26 17:15:10 2023 +1300
+
+    fix approve transaction crash on locked wallet (#3012)
+
+[33mcommit cce8a28e7c6adf8802dc5e235a5b2f65fdcbfe7d[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 08:40:35 2023 +0530
+
+    Move to new eps (#3011)
+
+[33mcommit 7479d648bbc0324ddb75f46f3a7d2a22720109ff[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 08:08:39 2023 +0530
+
+    added logts (#3010)
+
+[33mcommit ea60e7ea498da89d1ef8f9ec45405d66769c58dc[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 07:43:05 2023 +0530
+
+    Updated tag (#3009)
+
+[33mcommit f80d5d812fc435915516e42aefb24b5c8ac2294c[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 07:19:01 2023 +0530
+
+    redeployment (#3008)
+
+[33mcommit 9f221d61ab6e79e7190d4cea87ba6c7d535057b3[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 06:57:55 2023 +0530
+
+    Updated version number (#3007)
+
+[33mcommit 21160271fc70523f1b7b2dca548dcdbc1ea4b3cf[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 06:31:39 2023 +0530
+
+    Adds ws server (#3006)
+
+[33mcommit 41410764ed6f4c22c6adc51198971af43e831051[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 06:16:34 2023 +0530
+
+    Adds dockerhub deployment to ws server (#3005)
+    
+    * Adds ws server deployment via dockerhub
+    
+    * fixed ws to use port 8080
+
+[33mcommit a6673021661525c8d17687e7913056c6ceff35be[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 05:54:22 2023 +0530
+
+    Added rest of the secrets (#3004)
+
+[33mcommit 2da5e58e77a3e41edf2934103dab57d6fa679339[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 05:42:03 2023 +0530
+
+    One more try to fix secrtets (#3003)
+    
+    * Fixes backend-api
+    
+    * Added secrets
+    
+    * Fixed move of files
+
+[33mcommit fdb2424981059d7d4a0a5bfadee0b4f8e86c351a[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 05:29:18 2023 +0530
+
+    Better syntax (#3002)
+
+[33mcommit 06bf028b119225f22a8c18e17166da2099259fcc[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 05:27:56 2023 +0530
+
+    Removead more line (#3001)
+
+[33mcommit 4b3b5f097e8d3a4f9d771dbad491645768536e56[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 05:26:30 2023 +0530
+
+    Updated file (#3000)
+
+[33mcommit 9e8b7960fee7e3a3b603bad243bae2b4ca5bfc5b[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 05:22:10 2023 +0530
+
+    Tried yaml fix (#2999)
+
+[33mcommit 9095b535bf4b64d468979b323906c7009af6fbf2[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 05:20:37 2023 +0530
+
+    Tried update to file (#2998)
+
+[33mcommit 035e27ad7fcedfdbcae978a1ba8af2cf493d7834[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 05:17:07 2023 +0530
+
+    Updated secret (#2996)
+
+[33mcommit 6960b1756c3b3eaa9668cd46f07ae10b7176fe02[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 04:55:53 2023 +0530
+
+    Adds secrets to workflow (#2995)
+    
+    * Adds secrets to workflow
+    
+    * Fixed workflow
+
+[33mcommit b6148de58b0993a5ea378494573df8bd5b630d04[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 04:48:34 2023 +0530
+
+    test deployment (#2994)
+
+[33mcommit 00eb8e6f2e9b727f6e974ea16e4b9698e9d69604[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 04:39:13 2023 +0530
+
+    Updated ports (#2993)
+
+[33mcommit 42a90bc413bbc150ba0de20a8920f51b10a65b9f[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 02:10:35 2023 +0530
+
+    Updates ports (#2992)
+
+[33mcommit 779214e12322d42e017f34038fc14b85c44d78b0[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 01:53:24 2023 +0530
+
+    stuff (#2990)
+
+[33mcommit 70e21685e2fd4a994e149d0905b0789428704c51[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 01:08:20 2023 +0530
+
+    Updated docker-compose (#2989)
+
+[33mcommit 1fc50512bba3d50e768d6e918c72638a4e96a542[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 00:19:01 2023 +0530
+
+    Fixed docker compose (#2988)
+
+[33mcommit 7d8571394fc183b37ff6233cd4edada16c3d41c0[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sun Feb 26 00:12:04 2023 +0530
+
+    Fixes healthchecks (#2987)
+
+[33mcommit 313c71fa3996e77c21b7e4de18e525a5841d7f28[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Feb 25 23:47:13 2023 +0530
+
+    commenting linkify until audit (#2983)
+
+[33mcommit d9cfe8e38f2544e9b92acb3b79a3ca62527c7be3[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Feb 25 23:40:45 2023 +0530
+
+    fixed workflow (#2986)
+
+[33mcommit 6ebabfb1e91f039ec951e09770d6326093b72020[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Feb 25 04:27:44 2023 +0530
+
+    Fixed username loading (#2981)
+    
+    * Offline loading images
+    
+    * comit
+    
+    * comit
+    
+    * comit
+    
+    * comit
+    
+    * Update conf
+    
+    * Update conf
+    
+    * added file
+
+[33mcommit 34744f97c320b8d54e70c85a8af4f131ce25dd73[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Feb 25 03:28:13 2023 +0530
+
+    Update more members (#2982)
+
+[33mcommit 8f7b89523b5718c4f798d3a8c23543a3d3389bf5[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Sat Feb 25 00:40:01 2023 +0530
+
+    Fix injection (#2979)
+
+[33mcommit f1cd817ada60ab1a47520bb81388daaefaf5d831[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 23:25:10 2023 +0530
+
+    revert version (#2978)
+
+[33mcommit cce8d34010d5d880e064f4b5ca8a60d0e9f443ad[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 23:06:21 2023 +0530
+
+    Adds polishes  (#2947)
+    
+    * more issues fixed
+    
+    * fix styff
+    
+    * fixes
+    
+    * updates
+    
+    * fix
+
+[33mcommit 538c2c424723674c4d0bc60510e9260140602dd8[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 23:05:59 2023 +0530
+
+    Hot reloading, new modules (#2943)
+    
+    * test
+    
+    * updates
+    
+    * comit
+    
+    * comit
+    
+    * removed
+    
+    * removed
+
+[33mcommit c10ba311ef43d95ded0521775256e15de52e5e27[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 23:02:15 2023 +0530
+
+    Added eb session token (#2974)
+
+[33mcommit ee7f4405758e3c4080f4fc468776021165b26fc8[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 22:56:05 2023 +0530
+
+    Added eb session token (#2973)
+
+[33mcommit 0ff59371494fc870817c5d644ebe222168bf5dd6[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 10:31:04 2023 +0530
+
+    Fixedx env (#2965)
+
+[33mcommit ef2cc0f770675258afc244dfdf812dc446ba45fb[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 10:16:50 2023 +0530
+
+    Fixed stuff (#2964)
+
+[33mcommit 41a7254355024187896d3621b8c1f5f8e6483979[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 10:13:39 2023 +0530
+
+    Deploy to eb (#2963)
+    
+    * Stuff
+    
+    * Added dockerrun creds
+
+[33mcommit 5007305542a60a43701aaf6092dc25a61d913f91[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 09:51:21 2023 +0530
+
+    fixes (#2962)
+
+[33mcommit cb1a14b65a6498fc511a3b5f9029b4efff10527a[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 09:46:49 2023 +0530
+
+    fixes (#2961)
+
+[33mcommit 80b7cacef300cae330fe8709ea177e5ba9344039[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 09:34:18 2023 +0530
+
+    fixes (#2960)
+
+[33mcommit 31d556172edf065899a686c64e19150c616bc2a4[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 09:31:21 2023 +0530
+
+    trigger workflow (#2959)
+
+[33mcommit 60cce13b3e2cea5fd16482462a4880455cf32fae[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 09:28:24 2023 +0530
+
+    trigger workflow (#2958)
+
+[33mcommit 96681898454fc53185527249da2d28eb4c187355[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 09:22:30 2023 +0530
+
+    trigger workflow (#2957)
+
+[33mcommit f69f8aebb6fc2df813114d4af25ffacbdeefd2eb[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 09:16:30 2023 +0530
+
+    trigger workflow (#2956)
+
+[33mcommit a07b27afa88b8c0683e18e77debf944c25494131[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 09:14:54 2023 +0530
+
+    Added workflow (#2955)
+
+[33mcommit 236621cf0fae27ec28da275f832b1eb8d84f2ce1[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 08:17:18 2023 +0530
+
+    removed limit on friendship requests (#2954)
+
+[33mcommit 2b5101c1004a92b6b239b7fa75738bda4150524d[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Fri Feb 24 14:01:19 2023 +1300
+
+    clean up transfer widget code (#2950)
+
+[33mcommit 17048b31a4fe56eb5254cad0efe3ec61e596d2f4[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Fri Feb 24 13:58:03 2023 +1300
+
+    upgrade mui packages (#2951)
+
+[33mcommit 6d80f2e5d010f521fb1eb9c1831aac40e7fdf216[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Fri Feb 24 13:57:53 2023 +1300
+
+    replace rimraf with git clean in clean script (#2952)
+
+[33mcommit 40a3adad685df09e31ab20d710cde824dfe95da1[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Thu Feb 23 18:39:23 2023 -0600
+
+    update github workflows to 0.5.1
+
+[33mcommit 85ee26510c7772630d170d50a2b014d11f0193ec[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Thu Feb 23 18:37:11 2023 -0600
+
+    v0.5.1
+
+[33mcommit 17d9e7602ca25f08442e3d4234ee48b313a89f96[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 05:52:20 2023 +0530
+
+    Close notification onclick (#2949)
+    
+    * notification onclick close
+    
+    * Redeploy notifications worker
+
+[33mcommit a23be063724aed0aec00b18a0691c38ed47be368[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 05:26:17 2023 +0530
+
+    Fixed link color (#2946)
+
+[33mcommit 255153960335dd47a810d1c9e7f6b6dc974b34d9[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Fri Feb 24 11:45:32 2023 +1300
+
+    fix npm release script (#2948)
+    
+    * fix npm release script
+    
+    * retab
+
+[33mcommit e1cf44400ddbad33ffb48e56c8ed84dfcf36da89[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Fri Feb 24 11:09:03 2023 +1300
+
+    zero transition on popover (#2945)
+
+[33mcommit e625c086e337a26bdc5aa04a912ee6bfbfa61baf[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Fri Feb 24 03:35:29 2023 +0530
+
+    fix image (#2944)
+
+[33mcommit 24e7228c6f473823b2d9d3b2e38d5467262cc655[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Thu Feb 23 12:39:37 2023 -0500
+
+    change language around contacts to friends (#2940)
+
+[33mcommit aea45a5fff2552079723673cf2a734c9adbddcb9[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Wed Feb 22 19:45:07 2023 -0600
+
+    close drawer before making request
+
+[33mcommit e47871f93cf189a3fcc6ab5606d26b2dbfff935c[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Wed Feb 22 18:15:46 2023 -0600
+
+    re-add implicit useEffect (#2933)
+    
+    * redo useeffect
+    
+    * fix
+    
+    * fix wrong loading
+    
+    * fix
+
+[33mcommit 1ef74944cfeb0224a86e5e071243dd47af44e17f[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Wed Feb 22 17:15:22 2023 -0600
+
+    eslint --fix some leaky renders (#2931)
+    
+    * eslint fixes useless renders
+    
+    * fix chat drawer render
+
+[33mcommit aca080380cd5bba227781222671cd8a5d60e4ddf[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Wed Feb 22 16:44:21 2023 -0600
+
+    remove createRoot and strict mode (#2930)
+
+[33mcommit 49c38f52d40be65809d659922ec2e51aa2c42882[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Wed Feb 22 15:21:58 2023 -0600
+
+    get eslint react rules working (#2928)
+
+[33mcommit 4c23f7f5cdfbdcd2691b566b53bf84b388e14c02[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Thu Feb 23 02:32:45 2023 +0530
+
+    Hide secure transfer for now (#2920)
+
+[33mcommit 5d789cdf6d98d08e88a8e9f37f2d3da05debec03[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Wed Feb 22 14:39:05 2023 -0600
+
+    switch back from createRoot to render (#2924)
+    
+    * updates
+    
+    * fix comment
+
+[33mcommit ece3f7fa3de7b4cb90ded8e1e13faeebb9642f66[m
+Author: Philipp Adrian <580992+ph101pp@users.noreply.github.com>
+Date:   Wed Feb 22 13:56:13 2023 -0600
+
+    Hardcoded chat name: Mad Lads WL -> The Madlist (#2922)
+    
+    * Mad Lads WL -> The Madlist
+    
+    * Update url
+
+[33mcommit 97a865ba26cb5080d59c174cf154dcb0dfa95ce8[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Wed Feb 22 12:55:55 2023 -0600
+
+    open onboarding once
+
+[33mcommit 8849760fcf21595a8c126551ae77c55184ab58f1[m
+Author: Kritik Jiyaviya <82360525+Kritik-J@users.noreply.github.com>
+Date:   Thu Feb 23 00:10:30 2023 +0530
+
+    Fixed notification avatar position (#2868)
+
+[33mcommit 52e373978f91597c907bc81bbec2fa37c29a4178[m
+Author: Jimii <30603522+jim4067@users.noreply.github.com>
+Date:   Wed Feb 22 21:36:59 2023 +0300
+
+    fix: copy tooltip positioning (#2919)
+
+[33mcommit 7b1ea4764c34cda1617aaee566967180ec6a2a29[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Feb 22 23:35:49 2023 +0530
+
+    Fixed contact naming (#2918)
+    
+    * Fixed contact naming
+    
+    * Fixed contact naming
+    
+    * Fixed contact naming
+
+[33mcommit b5f89421c8f077dc20c243e5a208b1b3eac891fc[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Wed Feb 22 11:43:39 2023 -0600
+
+    fix recover account 2nd username (#2917)
+    
+    * fix recover account 2nd username
+    
+    * wip
+    
+    * dont await json twice..
+    
+    * cleanup
+
+[33mcommit fcc3a6c64be212203dc593a854632687f3c0dcd3[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Wed Feb 22 11:27:02 2023 -0600
+
+    backdrop from minidrawer
+
+[33mcommit 76b826f24ee6b9bb5c9a8be23f3937335b11d724[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Feb 22 22:41:57 2023 +0530
+
+    fixed style bug (#2916)
+
+[33mcommit 18181ac0dd4b68ce61c82da389ed995abba4079a[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Wed Feb 22 10:55:21 2023 -0600
+
+    fix private key export crash
+
+[33mcommit 2a90aae88c699c3e5e6f941f08334e2df3940334[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Feb 22 22:14:18 2023 +0530
+
+    Made longer truncation length of username (#2914)
+
+[33mcommit 0ff81498b4f0fd44498a76f2ede11eb61742c18d[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Feb 22 22:03:32 2023 +0530
+
+    fixes username issue (#2913)
+
+[33mcommit ba2133badc5d796f6a6f2f41995840b79a5f9546[m
+Author: wentokay <101902546+wentokay@users.noreply.github.com>
+Date:   Wed Feb 22 07:26:21 2023 -0800
+
+    yarn (#2911)
+
+[33mcommit 09f4a80950ae9bd12079ed3f14e2d8e93ba948eb[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Tue Feb 21 23:56:53 2023 -0600
+
+    remove avatar menu in settings (#2902)
+
+[33mcommit f7c9d79e48ddd2d646d5de91ed757a778f5d8508[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Feb 22 11:42:08 2023 +0530
+
+    Dark mode fix (#2900)
+    
+    * fix dark mode search
+    
+    * fix dark mode
+
+[33mcommit 2c51880f59b6dcfd07f0985a3819b12c9e7b79c9[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Tue Feb 21 23:56:53 2023 -0600
+
+    remove avatar menu in settings (#2902)
+
+[33mcommit 9cac5cb8a522c3be0247f8114c37f323b78e993a[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Wed Feb 22 17:27:09 2023 +1300
+
+    bring back stripe feature gate (#2896)
+    
+    * bring stripe feature gate back
+    
+    * cleanup
+
+[33mcommit 9dd80cb4972c27ebb4f46eb7e2338f50b4782906[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Tue Feb 21 22:55:15 2023 -0500
+
+    update meta tag scrape to use xnft link const (#2895)
+
+[33mcommit 6dc3cacb2a4075e4df0e5aa59674cf2a78152739[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Wed Feb 22 16:42:30 2023 +1300
+
+    add deps to make backpack-api docker build work (#2892)
+
+[33mcommit f6f9b1d116f1fe4015df8a64bf767ea0339b5c9c[m
+Author: Matthew Callens <callensmatt@gmail.com>
+Date:   Tue Feb 21 22:29:49 2023 -0500
+
+    update the domain of the xnft meta tag scraping (#2890)
+
+[33mcommit 4e6ade1c9d5d8328f9245fc91d2caa70e7ea41cc[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Wed Feb 22 15:42:32 2023 +1300
+
+    bump xnft-cli version to fix publish (#2887)
+
+[33mcommit 4eccaebd0276b9bde044fb3c42a1ac8c4179e2e8[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Tue Feb 21 20:07:28 2023 -0600
+
+    fixes send font (#2886)
+
+[33mcommit 4f6ae30f8966baa127c5a7f3058ef6941949410e[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Wed Feb 22 14:43:31 2023 +1300
+
+    cleanup feature gates and use equalsAtom on feature gates to prevent rerender (#2882)
+    
+    * cleanup feature gates and use equalsAtom on feature gates to prevent extra renders
+    
+    * remove console.log
+
+[33mcommit 6d9af70d371e91b99af7ce04f241d85aa4847d0f[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Wed Feb 22 14:42:26 2023 +1300
+
+    merge common-public into common, remove react-xnft, react-xnft-dom-renderer (#2867)
+    
+    * merge common-public into common
+    
+    * remove react-xnft, react-xnft-renderer, xnft-cli
+    
+    * cleanup
+    
+    * bring back xnft-cli
+    
+    * strip legacy from xnft-cli
+    
+    * more cleanup
+    
+    * cleanup
+    
+    * remove yarn flag
+    
+    * update parcel
+    
+    * package updates
+    
+    * remove native
+    
+    * wip
+    
+    * fix ledger dependency mayhem
+    
+    * lockfile update
+
+[33mcommit edf57f1d06a9407ef991469f985856fae8a0946b[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Tue Feb 21 18:45:58 2023 -0600
+
+    fix/reformat/consolidate onboarding flow for recover account (#2879)
+    
+    * wip
+    
+    * consolidate OnboardAccount, RecoverAccount flows
+    
+    * cleanup
+    
+    * useAuthentication
+    
+    * add useCallback
+    
+    * wrap in usecallback
+    
+    * fix loading
+    
+    * fix useBackgroundClient import
+    
+    * fix it
+    
+    * cleanup
+
+[33mcommit 2ba81f04f64c6eecf127d57733d416286220d53a[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Wed Feb 22 11:04:11 2023 +1300
+
+    remove console log on text input (#2883)
+
+[33mcommit 3331950189f9e2648cf6d2e9266e2bdb0c98d56b[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Wed Feb 22 02:26:43 2023 +0530
+
+    Bunch of polishes (#2875)
+    
+    * Fixes styles
+    
+    * added withtabs
+    
+    * stuff
+    
+    * Fixes issuye
+
+[33mcommit 2832b7834ee173524f68b5c574790fbbbf80124b[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Tue Feb 21 12:31:26 2023 -0600
+
+    fix review button styles (#2873)
+    
+    * fix review button
+    
+    * remove old styles
+
+[33mcommit f7fcb65b267f2abbd18160acec9d059d76fe9f5c[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Tue Feb 21 11:42:37 2023 -0600
+
+    extension text field / avatar fixes (#2870)
+    
+    * fix avatar
+    
+    * wip text input
+    
+    * wip
+    
+    * fix text input
+
+[33mcommit 3637d68905ffab226eaf88ce2205537753563167[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Feb 21 22:53:31 2023 +0530
+
+    Fix ws server deployment (#2871)
+    
+    * fix backend deployment
+    
+    * fix backend deployment
+
+[33mcommit 2743fddeaea9986af097d76a1465b7b4722e4598[m
+Author: Jimii <30603522+jim4067@users.noreply.github.com>
+Date:   Tue Feb 21 20:20:32 2023 +0300
+
+    feat: ability to explore addresses (#2857)
+
+[33mcommit 26c9bcae595e54b63231ff936546c4aa82095827[m
+Author: Jimii <30603522+jim4067@users.noreply.github.com>
+Date:   Tue Feb 21 19:11:45 2023 +0300
+
+    update: place token cursor to the left (#2869)
+
+[33mcommit edc03cdfa80bcd42ffa5a31f4761afc460d2c467[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Mon Feb 20 19:39:30 2023 -0600
+
+    react native in the extension heh (#2858)
+    
+    * react native web wip
+    
+    * fix da react native web build
+    
+    * adds react native web
+    
+    * fix da errors
+    
+    * undo locked changes
+
+[33mcommit 32abb1e334cd1692624275a8d16d15d0997e0aa8[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Feb 21 04:20:13 2023 +0530
+
+    Secure transfer new ui (#2862)
+    
+    * secure transfer new ui
+    
+    * secure transfer
+    
+    * fixed height
+    
+    * fix build
+    
+    * fix buid
+
+[33mcommit c9910abb6d16ca12be52e11b8ca56b7cb98d73d3[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Mon Feb 20 12:57:11 2023 -0600
+
+    upgrades extension to react v18.2.0 (#2860)
+    
+    * upgrade extension to v18
+    
+    * update deps to 18
+    
+    * consolidate 18.1.0 and 18.2.0
+    
+    * upgrades next to v13 react v18
+    
+    * updates
+    
+    * fix suspense fallback
+
+[33mcommit f2291af3c4d5194f05621c28f32fcab3f733324f[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Feb 21 02:26:35 2023 +0800
+
+    Only show active keys (#2861)
+    
+    * Only show active keys
+    
+    * cp
+
+[33mcommit cbac734f5b37d4b91172f79f55f3640de2d6f58b[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Tue Feb 21 01:38:26 2023 +0800
+
+    Bartering (#2726)
+    
+    * checkpoint
+    
+    * checkpoint
+    
+    * fixed bartering
+    
+    * Fixed stuff
+    
+    * cp
+    
+    * remove tsbuild
+    
+    * added barter params
+    
+    * fixes
+    
+    * stuff
+    
+    * Updates
+    
+    * Updated stuff
+    
+    * zeus
+    
+    * fixes
+    
+    * works
+    
+    * cp
+    
+    * zeus
+    
+    * fixed updates
+    
+    * updates
+    
+    * checkpoint
+    
+    * added barter
+    
+    * fixes
+    
+    * fix build, fix dockerfiles
+
+[33mcommit eb81639464ddb55b8423e74f507c18dbaa01270a[m
+Author: Peter Piekarczyk <peterpme@users.noreply.github.com>
+Date:   Mon Feb 20 10:26:31 2023 -0600
+
+    removes dom renderer (#2859)
+
+[33mcommit aed34d739b161e241f691834e1143c3de5dfcb36[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Feb 20 16:13:25 2023 +1300
+
+    various polish and design tweaks (#2853)
+    
+    * remove unused
+    
+    * update bubble top label for recent activity
+    
+    * update bubble top label for notification list and fix time ago stirngs
+    
+    * updates to contacts
+
+[33mcommit 2cbb4b67be0088e755a2cb5ad1808cd6170da22b[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Feb 20 14:57:33 2023 +1300
+
+    update recovery phrase import options (#2851)
+
+[33mcommit 41a6e9aea3984b9eaa3389c075b6861ca98355d6[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Mon Feb 20 09:39:46 2023 +0800
+
+    Updates collection id (#2849)
+
+[33mcommit 71dfed7ef7bcee5efb34fb5adc021f9781bca764[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Feb 20 14:33:34 2023 +1300
+
+    deduplicate friends from search results in send (#2848)
+
+[33mcommit 70d12f2c1d93645b8716bf61b55ec2b5c94b786b[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Mon Feb 20 09:25:32 2023 +0800
+
+    Added internal chat (#2847)
+
+[33mcommit 4d770c70fd34e75ca24b2db5b359a06a1b954266[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Feb 20 14:16:24 2023 +1300
+
+    fix order of burn token transition (#2845)
+
+[33mcommit 1ebf116b3344ba199bf824108557a494f6910e6f[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Feb 20 14:13:56 2023 +1300
+
+    fix width of send loader (#2844)
+
+[33mcommit 9478da35bbc2a15a895eb6b1693ee4d5822079ee[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Feb 20 13:50:36 2023 +1300
+
+    add asc order on username in by prefix query (#2843)
+
+[33mcommit ba99dacc6ea14b6535e738b6823b2c2e8a2808b0[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Feb 20 13:45:32 2023 +1300
+
+    fix preselection of tokens in swapper (#2842)
+
+[33mcommit 0ded6428aedf332b673544279c5697d7107bb290[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Feb 20 13:30:15 2023 +1300
+
+    remove console log (#2841)
+
+[33mcommit 8f2d1ddc7bc3b042010d4cf992e24db00311bf1c[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Feb 20 11:37:43 2023 +1300
+
+    center tag in message popup (#2839)
+
+[33mcommit 1cb24e6cf8c210838fa874be8d10f6367bebaffc[m
+Author: Armani Ferrante <armaniferrante@gmail.com>
+Date:   Sun Feb 19 15:37:22 2023 -0600
+
+    lock screen cover (#2819)
+
+[33mcommit d1c3b4ebf8ee39d024596a78e8464257c53b73a0[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Feb 20 10:23:50 2023 +1300
+
+    add ellipsis on message preview (#2838)
+
+[33mcommit eae87d561592abfe9a03c3b65fc7d025243e384f[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Feb 20 10:23:42 2023 +1300
+
+    fix user tagging breaking chat layout in long messages (#2837)
+    
+    * fix user tagging breaking chat layout in long messages
+    
+    * fix null case
+
+[33mcommit e4838b7cb4eebd5e8d486cb256fae52cd0751f87[m
+Author: Tom Linton <tlinton@fastmail.fm>
+Date:   Mon Feb 20 09:44:07 2023 +1300
+
+    decrease font size of message input (#2834)
+
+[33mcommit 159b3a9b12cc32e806101e4f805b994fc1b58f0f[m
+Author: Kirat <harkirat96@gmail.com>
+Date:   Mon Feb 20 02:05:57 2023 +0800
+
+    Fixed dockerfile (#2826)

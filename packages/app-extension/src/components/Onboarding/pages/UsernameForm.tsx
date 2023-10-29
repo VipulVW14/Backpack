@@ -119,9 +119,7 @@ export const UsernameForm = ({
             type="text"
             value={firstname}
             setValue={(e) => {
-              setFirstname(
-                e.target.value.toLowerCase().replace(/[^a-z0-9_]/g, "")
-              );
+              setFirstname(e.target.value);
             }}
             error={error ? true : false}
             errorMessage={error}
@@ -149,9 +147,7 @@ export const UsernameForm = ({
             type="text"
             value={lastname}
             setValue={(e) => {
-              setLastname(
-                e.target.value.toLowerCase().replace(/[^a-z0-9_]/g, "")
-              );
+              setLastname(e.target.value);
             }}
             error={error ? true : false}
             errorMessage={error}

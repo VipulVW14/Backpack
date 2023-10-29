@@ -1049,6 +1049,12 @@ export const AllTypesProps: Record<string, any> = {
       where: "auth_user_nfts_bool_exp",
     },
     delete_auth_user_nfts_by_pk: {},
+    delete_auth_users: {
+      where: "auth_users_bool_exp",
+    },
+    delete_auth_users_by_pk: {
+      id: "uuid",
+    },
     delete_auth_xnft_preferences: {
       where: "auth_xnft_preferences_bool_exp",
     },
@@ -2208,6 +2214,8 @@ export const ReturnTypes: Record<string, any> = {
     delete_auth_public_keys_by_pk: "auth_public_keys",
     delete_auth_user_nfts: "auth_user_nfts_mutation_response",
     delete_auth_user_nfts_by_pk: "auth_user_nfts",
+    delete_auth_users: "auth_users_mutation_response",
+    delete_auth_users_by_pk: "auth_users",
     delete_auth_xnft_preferences: "auth_xnft_preferences_mutation_response",
     delete_auth_xnft_preferences_by_pk: "auth_xnft_preferences",
     insert_auth_collection_messages:
